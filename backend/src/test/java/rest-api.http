@@ -1,0 +1,16 @@
+GET http://localhost:8080/findUserById?id=1
+Accept: */*
+Cache-Control: no-cache
+
+###
+
+POST http://localhost:8080/addUser
+Accept: */*
+Cache-Control: no-cache
+content-type: application/json
+
+{
+  "id": 2,
+  "name": "李四",
+  "age": 1999
+}
